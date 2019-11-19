@@ -1,9 +1,27 @@
 #  Local .terraform directories
 **/.terraform/*
-
 # .tfstate files
 *.tfstate
 *.tfstate.*
-
 # .tfvars files
 *.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash log files
+crash.log
+
+#MAC OS
+.DS_Store
+#Windows
+Thumbs.db
+#Webstorm
+.idea
+
+#Private SSH keys
+*.pem
+
+#Login text files
+*.txt
